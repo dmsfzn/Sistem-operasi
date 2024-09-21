@@ -5,7 +5,10 @@ body {
 }
 
 h1 {
-  color: #a5a7dd;
+  color: white;
+  background-color: #a5a7dd;
+  padding: 10px 15px;
+  text-align: center;
 }
 
 ul {
@@ -17,10 +20,21 @@ li {
     margin: 30px;
 }
 
+p {
+	color: white;
+	text-align: center;
+}
 a {
     text-decoration: none;
     padding: 10px 20px;
     background-color: #a5a7dd;
     color: white;
     border-radius: 5px;
+}
+
+footer {
+	color: white;
+    background-color: #a5a7dd;
+    padding: 20px;
+    text-align: center;
 }
