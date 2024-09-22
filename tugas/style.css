@@ -29,6 +29,21 @@ a {
     border-radius: 5px;
 }
 
+c h3{
+	
+	width: max-content;
+	color: white;
+	text-align: center;
+}
+
+c h3::after{
+	content: '';
+	background: #a5a7dd;
+	height: 4px
+	width: 100%;
+	position: absolute;
+}
+
 main {
     padding: 20px;
 }
@@ -38,10 +53,11 @@ article {
     padding: 10px;
     margin-bottom: 20px;
     color: white;
+    text-align: justify;   
 }
 
-c {
-	text-align: center;
+p{
+	text-indent: 40px;
 }
 
 footer {
